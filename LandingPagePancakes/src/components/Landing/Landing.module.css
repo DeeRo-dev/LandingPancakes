@@ -1,0 +1,94 @@
+.content{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  font-family: 'Varela Round', sans-serif;
+  color: rgb(223, 224, 172);
+}
+.botoncito{
+  z-index: -1;
+}
+.imgPancakes{
+  background-image: url("https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGFuY2FrZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center center;
+  background-size: cover;
+  width:110vh;
+  height: 826px;
+
+}
+
+.data{
+  width: 71vh;
+  height: 97vh;
+}
+.imgData2{
+  width:202px;
+  height: 162px;
+ 
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+.li{
+  list-style:none;
+  padding-left: 10px;
+}
+.li:hover{
+  cursor: pointer;
+}
+.contentTitleSapm{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: -20px;
+}
+.title{
+  font-size: 120px;
+  font-family: 'Abril Fatface', cursive;
+  height: 250px;
+ 
+}
+.spam{
+  width: 350px;
+  height: 180px;
+}
+.boton{
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #fff;
+  border: none;
+}
+.boton:hover{
+  cursor: pointer;
+  border: none;
+}
+.contentIcons{
+  display: flex;
+  height: 800px;
+  flex-direction: column;
+  text-align: left;
+}
+.icon{
+  font-size: 30px;
+  padding-left: 20px;
+}
+.contentMenuHamb{
+  margin-top: 30px;
+}
+.contentIconRedes{
+  display: flex;
+  margin-top: 650px;
+}
+.contentIconRedes:hover{
+  cursor:pointer;
+}
